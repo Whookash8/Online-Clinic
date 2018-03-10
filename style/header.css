@@ -1,0 +1,114 @@
+header {
+	background-color: #69d2e7;
+	border-top: 5px solid #fa6900;
+	position: relative;
+	padding-bottom: 15%;
+}
+
+#logo {
+	position: absolute;
+	margin: 3% 0 0 5%;
+
+	height: 100%;
+	width: 80%;
+}
+
+ #logo-name h2 {
+ 	font-size: 100%;
+}
+
+ #logo-name p {
+ 	font-size: 100%;
+ }
+
+#logo img {
+	float: left;
+	padding-right: 10px;
+}
+
+#logo-name {
+ 	line-height: 3px;
+ 	padding: 0;
+ 	width: 50%;
+ 	margin: 0;
+}
+
+#hello-message {
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	clear: both;
+
+	font-size: 220%;
+}
+
+#hello-message h1 {
+	margin-top: 5%;
+	margin-bottom: 0;
+	height: 50%;
+}
+
+#hello-message h5 {
+	margin: 0;
+}
+
+nav {
+	float: right;
+	z-index: 10;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 1%;
+	float: left;
+}
+
+nav  {
+	margin-top: 3%;
+	margin-right: 7%;
+}
+
+nav img {
+	width: 150%;
+	height: 150%;
+}
+
+nav img:hover {
+	opacity: .7;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 7%;
+    min-width: 190px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    z-index: 100000000;
+ }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+

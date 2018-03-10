@@ -1,0 +1,33 @@
+#services {
+	position: relative;
+	width: 70%;
+
+	margin: 5% auto;
+
+	text-align: center;
+}
+
+.column {
+
+	width: 23.333333%;
+
+	overflow: hidden;
+}
+
+.column img {
+	width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#column-1{
+	float: left;
+}
+
+#column-2 {
+	float: right;
+}
+
+#column-3 {
+	margin: 0 auto;
+}

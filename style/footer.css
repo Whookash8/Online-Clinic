@@ -1,0 +1,16 @@
+footer {
+	background-color: #69d2e7;
+	color: white;
+
+	overflow: hidden;
+
+	padding: 1%;
+}
+
+#terms {
+	float: left;
+}
+
+#copyright {
+	float: right;
+}

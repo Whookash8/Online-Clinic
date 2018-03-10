@@ -1,0 +1,29 @@
+#about-us {
+
+	position: relative;
+	width: 70%;
+	margin: -10% auto;
+	margin-bottom: 0;
+	z-index: 1;
+
+	background-color: white;
+	
+	padding: 2% 0;
+
+	text-align: justify;
+
+}
+
+#about-us h3 {
+	text-align: center;
+	font-size: 150%;
+	margin: 0 auto;
+
+	width: 50%;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#about-us p{
+	text-indent: 3%;
+	padding: 4% 5%;
+}

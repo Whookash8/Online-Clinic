@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Clinic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/header.css">
+	<link rel="stylesheet" type="text/css" href="style/about-us.css">
+	<link rel="stylesheet" type="text/css" href="style/services.css">
+	<link rel="stylesheet" type="text/css" href="style/slider.css">
+	<link rel="stylesheet" type="text/css" href="style/workers.css">
+	<link rel="stylesheet" type="text/css" href="style/banner.css">
+	<link rel="stylesheet" type="text/css" href="style/info.css">
+	<link rel="stylesheet" type="text/css" href="style/footer.css">
+	<script type="text/javascript" src="scripts/image-slider-script.js"></script>
+	<script type="text/javascript" src="scripts/workers-slider-script.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="dropdown">
+			<img src="images/menu.png" class="dropbtn">
+			<div class="dropdown-content">
+				<a href="#">HOME</a>
+				<a href="#">E-REGISTRATION</a>
+				<a href="#">SERVICES</a>
+				<a href="#">ABOUT US</a>
+				<a href="#">AUCTIONS</a>
+			</div>
+		</nav>
+		<div id="logo">
+			<img src="images/logo.png">
+			<div id="logo-name">
+				<h2>COMPANY NAME</h2>
+				<p>Tag Line Goes Here</p>
+			</div>
+		</div>
+
+		<div id="hello-message">
+			<h1>HELLO</h1>
+			<h5>WE ARE ONLINE CLINIC</h2>
+		</div>
+		
+	</header>
+	<content>
+		<div id="about-us">
+			<h3>ABOUT US</h3>
+			<p>Sed sed felis vitae elit convallis aliquet in eget nisi. Praesent facilisis turpis at nibh posuere scelerisque. Aliquam dictum metus vitae lorem pellentesque aliquet. Maecenas quam mauris, blandit ullamcorper scelerisque vel, tincidunt ac nisi. Duis non velit vitae justo bibendum cursus vitae tempus libero. Aenean augue arcu, rutrum sed ultrices fermentum, molestie eget lectus. Aenean lobortis efficitur tortor vel accumsan. Nulla facilisi. Curabitur nisl lacus, vestibulum id elementum quis, tempus vitae augue. Duis ultricies at lacus in rutrum. Donec lacus nibh, dictum in aliquet ut, pharetra vitae massa. Nullam ultrices facilisis auctor. Cras viverra sapien sit amet ipsum aliquet ultrices.</p>
+		</div>
+		<div id="services">
+			<div id="column-1" class="column">
+				<img src="images/icon-1.png" id="img1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div id="column-2" class="column">
+				<img src="images/icon-3.png" id="img2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div id="column-3" class="column">
+				<img src="images/icon-2.png" id="img3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</div>
+		<div id="slider">
+			<p>Nulla metus dolor, euismod eu lacinia eget, commodo et arcu. Ut vel nisi sem. Suspendisse vehicula velit eu lacus aliquet, sed sagittis ex mattis. Aenean eu arcu ipsum. Nunc urna turpis, imperdiet sed arcu eu, faucibus imperdiet ipsum. Fusce in sem finibus, vulputate tellus vitae, tincidunt orci. Aliquam mauris massa, vulputate in urna ut, dignissim varius lacus. Suspendisse vitae ullamcorper purus, at accumsan sapien.</p>
+			<div id="image-slider">
+				<img src="images/window.png" id="window-1" class="left window">
+				<img src="images/window-2.png" id="window-2" class="center window">
+				<img src="images/window-3.png" id="window-3" class="right window">
+
+				<img src="images/left.png" id="left-button" class="button" onclick="rotateLeft()">
+				<img src="images/right.png" id="right-button" class="button" onclick="rotateRight()">
+			</div>
+		</div>
+		<div id="workers">
+			<div id="worker-1" class="worker">
+				<img src="images/woman.png" id="worker-img-1">
+				<h5>Alice G. Mullin</h5>
+				<h6>General Physician</h6>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum augue in diam viverra, in pretium arcu egestas. Quisque condimentum tincidunt nibh. Sed sollicitudin arcu in finibus mattis.
+				</p>
+			</div>
+			<div id="worker-2" class="worker">
+				<img src="images/man.png" id="worker-img-2">
+				<h5>Steven Kennedy</h5>
+				<h6>Junior Surgeon</h6>
+				<p>
+					Duis convallis risus et erat vestibulum commodo. Phasellus ut posuere tellus. Sed nec interdum metus, nec sollicitudin felis. Proin quis tincidunt lectus. Ut rhoncus magna id consectetur imperdiet.
+				</p>
+			</div>
+			<div id="worker-3" class="worker">
+				<img src="images/man.png" id="worker-img-3">
+				<h5>Michael Carrick</h5>
+				<h6>Director</h6>
+				<p>
+					Aliquam pretium vehicula cursus. Mauris sed pulvinar ante. Praesent sodales dignissim velit ac dignissim. Suspendisse placerat volutpat arcu, a fermentum erat congue eu. Nullam consequat faucibus facilisis.
+				</p>
+			</div>
+			<div id="points">
+				<span class="point" onclick="currentSlide(1)"></span>
+				<span class="point" onclick="currentSlide(2)"></span>
+				<span class="point" onclick="currentSlide(3)"></span>
+			</div>
+		</div>
+		<div id="banner">
+			<div id="banner-text">
+				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+				<h5>Sed sollicitudin arcu in finibus mattis.</h5>
+				<p>Nulla quis justo vel nibh vestibulum pharetra. Vivamus molestie ac orci et interdum. Integer id convallis tellus. Duis augue mi, feugiat quis risus ut, congue suscipit mi. In at ipsum nisl.</p>
+				<p>Sed bibendum et ligula at mattis. Pellentesque at volutpat odio. Vivamus at ex ultricies, condimentum arcu at, sodales elit.</p>
+				<p>Aenean aliquet, erat eget sagittis pretium, sapien ligula aliquet mauris, ut faucibus risus justo vel massa. Quisque condimentum eros at enim accumsan placerat. Maecenas mattis erat arcu, et pulvinar turpis mattis sit amet.</p>
+			</div>
+			<div id="banner-circle">
+
+			</div>
+			</div>
+		</div>
+		<div id="info">
+			<div id="left-part">
+				<div id="logo2">
+				<img src="images/logo-orange.png">
+				<div id="logo-name">
+					<h2>COMPANY NAME</h2>
+					<p>Tag Line Goes Here</p>
+				</div>
+			</div>
+				<div id="rectangle">
+					
+				</div>
+				<div id="info-paragraph">
+					<p>Duis convallis risus et erat vestibulum commodo. Phasellus ut posuere tellus. Sed nec interdum metus, nec sollicitudin felis. Proin quis tincidunt lectus. Ut rhoncus magna id consectetur imperdiet. Praesent euismod volutpat consectetur. Nam vestibulum ultrices lacus a tincidunt. Nulla quis justo vel nibh vestibulum pharetra.</p>
+					<p>Vivamus molestie ac orci et interdum. Integer id convallis tellus. Duis augue mi, feugiat quis risus ut, congue suscipit mi. In at ipsum nisl. Duis eget tellus eu tellus egestas scelerisque. Vivamus egestas luctus suscipit. Nulla sem nisi, feugiat a egestas ac, iaculis eu diam. Vivamus tristique ex et diam dapibus maximus.</p>
+				</div>
+			</div>
+			<div id="right-part">
+				<h3>Latest Posts</h3>
+				<div class="post">
+					<img src="images/post.png">
+					<h5>Post #1</h5>
+					<p>Vestibulum tincidunt felis nisl, vel fermentum orci sollicitudin eu. Nunc porttitor ipsum non lorem convallis lacinia.</p>
+				</div>
+				<div class="post">
+					<img src="images/post.png">
+					<h5>Post #2</h5>
+					<p>Nulla quis tortor sed nibh ullamcorper aliquet quis eu massa. Phasellus tempus felis ac ligula facilisis blandit aliquet nec tellus.</p>
+				</div>
+				<div class="post">
+					<img src="images/post.png">
+					<h5>Post #3</h5>
+					<p>Sed varius lectus ac ornare volutpat. Quisque bibendum neque sed erat tempus dapibus. Duis tincidunt est sit amet tortor vulputate ultricies.</p>
+				</div>
+			</div>
+		</div>
+	</content>
+	<footer>
+		<p id="terms">
+			Terms of Use | Privacy &amp; cookies
+		</p>
+		<p id="copyright">
+			Copyright &copy; 2016, All rights Reserved
+		</p>
+	</footer>
+</body>
+</html>

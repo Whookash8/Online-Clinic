@@ -1,0 +1,63 @@
+#info {
+	position: relative;
+
+	overflow: hidden;
+	padding: 2%;
+}
+
+#logo2 {
+	position: relative;
+	margin: 3% 0 0 5%;
+
+	width: 90%;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+#logo2 img {
+	float: left;
+	margin-right: 2%;
+}
+
+#rectangle {
+	margin: 5% 5%;
+	padding: 3%;
+	max-width: 25%;
+	max-height: 1%;
+	background-color: black;
+}
+
+#left-part {
+	width: 50%;
+	float: left;
+}
+
+#right-part {
+	float: right;
+	width: 50%;
+	overflow: hidden;
+}
+
+#right-part img {
+	float: left;
+	width: 10%;
+    height: auto;
+    width: auto\9;
+    padding: 1%;
+    margin: 1%;
+}
+
+#right-part p{
+	overflow: hidden;
+	margin: 1% auto;
+}
+
+#right-part h5 {
+	padding: 0px 4%;
+	margin: 0;
+}
+
+.post {
+	padding: 1%;
+}
